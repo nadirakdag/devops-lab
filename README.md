@@ -10,7 +10,13 @@ It is designed to create a DevOps lab for **learning and testing purposes**, whi
 
 ### 1. Install Proxmox VE
 
-* Install Proxmox VE on bare metal hardware. Configure networking and storage.
+Install Proxmox VE on bare metal hardware. Configure networking and storage. After installation you can use post install script.
+
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pve-install.sh)"
+```
+
+
 
 ### 2. Create Templates
 
